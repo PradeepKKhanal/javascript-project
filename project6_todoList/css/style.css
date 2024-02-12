@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color:skyblue;
+
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-box{
+    background: white;
+    border-radius: 2px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.212);
+    width: 50%;
+    min-height: 50%;
+    padding: 10px;
+}
+#todo-input{
+    display: block;
+    width: 100%;
+    outline: none;
+    border: none;
+    /* border: 1px solid rgba(128, 128, 128, 0.449); */
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.498);
+    border-radius: 2px;
+    padding: 5px;
+    
+}
+#todo-input::placeholder{
+    color: rgba(0, 0, 0, 0.263);
+}
+
+.todo-display{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    border-radius: 2px;
+    user-select: none;
+}
+.todo-value{
+    /* border: 2px solid red; */
+    width: 96%;
+    cursor: pointer;
+}
+i{
+    /* border: 2px solid red; */
+    /* vertical-align: bottom; */
+    /* padding: 0 5px; */
+    cursor: pointer;
+    display: inline-block;
+    font-size: 10px;
+    height: fit-content;
+    /* font-weight: bold; */
+    
+}
+
+#warning{
+    color: red;
+
+    padding:0 5px;
+    font-size: 10px;
+}
+
+

@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+
+}
+img{
+    width: 30px;
+    height: 30px;
+}
+section{
+    background:linear-gradient( to bottom right,rgb(65, 195, 246)
+    ,rgb(4, 39, 95));
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+input{
+    border: none;
+    outline:none;
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.55);
+    width: 350px;
+   
+}
+.temperature{
+    display: flex;
+    width: 200px;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 20px;
+    /* border: 2px solid red; */
+}
+.temperature-value{
+    font-size: 35px;
+    font-weight:bold;
+    color: white;
+    /* border: 2px solid red; */
+}
+.temperature-info{
+    color: white;
+    text-align: right;
+    margin-right: 15px;
+    margin-top: 10px
+    /* border: 2px solid red; */
+
+}
+/* .weather-display{
+    border: 2px solid red;
+} */
+
+.suggest-display{
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 350px;
+    display: none;
+}
+.suggest-display > *{
+    padding: 5px 0;
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.161);
+}
+
+img{
+    width:50px;
+    height:50px;
+}

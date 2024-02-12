@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(23, 111, 184);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+section{
+    background-color: white;
+    /* padding: 10px; */
+    width: 40%;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+h2,
+form > div{
+    padding: 10px ;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.267);
+}
+button[type="submit"]{
+    /* display: block; */
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border: none;
+    background: black;
+    font-size: 20px;
+    cursor: pointer;
+}
+#suggestion{
+color: red;
+padding: 10px;
+font-size: 30px;
+}

@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+section {
+    background: linear-gradient(rgba(0, 0, 0, 0.663),rgba(0, 0, 0, 0.548)),url("img/building.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:white;
+    /* border: 2px solid red; */
+    height: 100vh;
+    overflow: hidden;
+
+}
+section >*{
+    width: 70%;
+    margin: auto;
+}
+
+
+section > div:first-child{
+    text-align: center;
+}
+section > div:first-child > h2 {
+    margin: 20px;
+    /* border: 2px solid red; */
+    /* padding: 20px  ; */
+    font-size: 30px;
+}
+
+section > div:last-child{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+section > div:last-child > div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+section > div:last-child > div > span:first-child{
+    background: white;
+    color: black;
+    border-radius: 2px;
+    padding:10px 30px;
+    font-size: 30px;
+}

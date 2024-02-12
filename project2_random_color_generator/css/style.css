@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body > div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid black;
+    width: 30%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow:0px 0px 5px 0px black;
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+    color: black}
+#color-value{
+    margin-bottom: 10px;
+    /* color: red; */
+}
+
+#color-generator-btn{
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: inherit;
+    font-size: 20px;
+}
